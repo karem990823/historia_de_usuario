@@ -1,10 +1,11 @@
-package historia_usuario.repository;
+package historia_usuario.demo.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import historia_usuario.model.Usuario;
+
+import historia_usuario.demo.model.Usuario;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {

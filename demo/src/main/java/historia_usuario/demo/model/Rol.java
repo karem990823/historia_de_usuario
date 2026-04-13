@@ -1,4 +1,4 @@
-package historia_usuario.model;
+package historia_usuario.demo.model;
 
 
 import jakarta.persistence.*;

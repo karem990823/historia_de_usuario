@@ -1,9 +1,9 @@
-package historia_usuario.repository;
+package historia_usuario.demo.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import historia_usuario.model.ProgramacionCurso;
+import historia_usuario.demo.model.ProgramacionCurso;
 
 import java.time.LocalDate;
 import java.util.List;

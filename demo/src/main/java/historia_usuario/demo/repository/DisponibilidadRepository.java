@@ -1,4 +1,4 @@
-package historia_usuario.repository;
+package historia_usuario.demo.repository;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -8,8 +8,8 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import historia_usuario.model.Disponibilidad;
-import historia_usuario.model.Usuario;
+import historia_usuario.demo.model.Disponibilidad;
+import historia_usuario.demo.model.Usuario;
 
 @Repository
 public interface DisponibilidadRepository extends JpaRepository<Disponibilidad, Integer> {

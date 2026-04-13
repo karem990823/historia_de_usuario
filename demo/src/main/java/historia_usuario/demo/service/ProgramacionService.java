@@ -1,4 +1,4 @@
-package historia_usuario.service;
+package historia_usuario.demo.service;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -6,11 +6,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import historia_usuario.model.ProgramacionCurso;
-import historia_usuario.model.Usuario;
-import historia_usuario.repository.DisponibilidadRepository;
-import historia_usuario.repository.ProgramacionCursoRepository;
-import historia_usuario.repository.UsuarioRepository;
+import historia_usuario.demo.model.ProgramacionCurso;
+import historia_usuario.demo.model.Usuario;
+import historia_usuario.demo.repository.DisponibilidadRepository;
+import historia_usuario.demo.repository.ProgramacionCursoRepository;
+import historia_usuario.demo.repository.UsuarioRepository;
 
 @Service
 public class ProgramacionService {

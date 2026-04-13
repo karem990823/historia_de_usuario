@@ -1,4 +1,4 @@
-package historia_usuario.controller;
+package historia_usuario.demo.controller;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import historia_usuario.model.ProgramacionCurso;
-import historia_usuario.model.Usuario;
-import historia_usuario.service.ProgramacionService;
+import historia_usuario.demo.model.ProgramacionCurso;
+import historia_usuario.demo.model.Usuario;
+import historia_usuario.demo.service.ProgramacionService;
 
 @RestController
 @RequestMapping("/api/programacion")
@@ -32,4 +32,8 @@ public class ProgramacionController {
     public ResponseEntity<ProgramacionCurso> reasignar(@PathVariable Integer id, @RequestParam Integer idInstructor) {
         return ResponseEntity.ok(service.reasignarInstructor(id, idInstructor));
     }
+    @GetMapping("/test")
+public String test() {
+    return "El servidor funciona!";
+}
 }
